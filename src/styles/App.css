@@ -13,9 +13,13 @@ html {
 #root {
     background-color: rgb(36, 36, 36);
 }
+
+.margin-top {
+    margin-top: 3rem;
+}
    
 .title {
-    font-size: 3.5em;
+    font-size: 3.7em;
     color: white;
     font-family: 'Carter One', cursive;
 }

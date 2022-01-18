@@ -26,7 +26,7 @@ function App() {
   return (
     <>
       <Container className='my-4'>
-        <Stack direction='horizontal' gap='2' className='mb-5 mt-4'>
+        <Stack direction='horizontal' gap='2' className='mb-5 margin-top'>
           <h1 className='me-auto title'>Financy</h1>
           <button className='add-btn-budget' onClick={() => setShowAddBudgetModal(true)}> Add Budget </button>
           {/*open expense modal for the general(top) expense button*/}
