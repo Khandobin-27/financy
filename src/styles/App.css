@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: rgb(36, 36, 36);
+}
+
+#root {
+    background-color: rgb(36, 36, 36);
+}
+   
+.title {
+    font-size: 3.3em;
+    color: white;
+    font-family: 'Carter One', cursive;
+}
+
+.add-btn-budget {
+    background-color: rgba(255, 255, 255, 0.959);
+    padding: .5rem;
+    border-radius: 4px;
+    font-weight: 500;
+    color: rgb(36, 36, 36);
+    transition: .3s;
+}
+
+.add-btn-expense{
+    background-color: rgb(36, 36, 36);
+    padding: .5rem;
+    border-radius: 4px;
+    font-weight: 500;
+    color: white;
+    border: 2px solid white;
+    transition: .3s;
+}
+
+.add-btn-budget:hover {
+    background-color: rgba(255, 255, 255, 0.596)
+}
+
+.add-btn-expense:hover {
+    background-color: rgba(255, 255, 255, 0.959);
+    color: rgb(36, 36, 36);
+}
+
+
+.card-shadow {
+    box-shadow: 9px 6px 72px 3px rgba(0,0,0,0.75);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+@media only screen and (max-width: 500px) {
+    .title {
+        font-size: 2.3em;
+    }
+    .add-btn-budget {
+        font-size: small;
+        padding: .4rem;
+        font-weight: 600;
+    }
+    
+    .add-btn-expense{
+        padding: .4rem;
+        font-size: small;
+        font-weight: 600;
+    }
+
+  }
+
+@media only screen and (min-width: 1400px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        gap: 1rem;
+        align-items: flex-start;
+    }
+
+  }
