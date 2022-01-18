@@ -13,7 +13,3 @@ Additionally, the application provides you with the total amount calcualted and 
 
 A custom local storage hook was programmed to be able to sace all changes locally on the device. 
 Notice, that if You will change the device or browser, the application will start as a blank project.
-<<<<<<< HEAD
-=======
-
->>>>>>> d3fccd5bc8363ad08a835335eb3076f3b68016e3
