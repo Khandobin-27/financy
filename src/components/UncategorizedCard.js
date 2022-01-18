@@ -51,16 +51,9 @@ export default function BudgetCard({
                 { !hideButtons && (
                     <Stack direction='horizontal' gap='2' className='mt-4'>
                         <Button 
-                        variant='secondary' 
-                        className='ms-auto'
-                        onClick={openAddExpenseClick}
-                        size='md'
-                        >
-                        Add Expense
-                        </Button>
-                        <Button 
                         variant='outline-secondary'
                         onClick={onViewExpensesClick}
+                        className='ms-auto'
                         >
                         View Expenses
                         </Button>

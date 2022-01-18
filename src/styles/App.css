@@ -53,10 +53,6 @@ html {
 }
 
 
-.card-shadow {
-    box-shadow: 9px 6px 72px 3px rgba(0,0,0,0.75);
-}
-
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
