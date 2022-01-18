@@ -1,6 +1,7 @@
 import React from 'react'
 import { Card, ProgressBar, Stack, Button } from 'react-bootstrap'
 import { currencyFormatter } from '../Util'
+import '../styles/CardBackground.css'
 
 export default function BudgetCard({
     name, 
@@ -15,7 +16,7 @@ export default function BudgetCard({
     //red background will overwrite the gray background, becasue it is first in the condition
     //and if the limit is reached, red must override gray
     if (amount > max) {
-        classNames.push('bg-danger', 'bg-opacity-10')
+        classNames.push('overbudget')
     } else if (gray) {
         classNames.push('bg-light')
     }
