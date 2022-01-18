@@ -13,5 +13,4 @@ Additionally, the application provides you with the total amount calcualted and 
 ## Saving your data
 
 A custom local storage hook was programmed to be able to sace all changes locally on the device. 
-It is also recommended to refresh the browser page every time the budget card or expenses is removed from the page.
 Notice, that if You will change the device or browser, the application will start as a blank project.
