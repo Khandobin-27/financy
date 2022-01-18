@@ -1,5 +1,4 @@
 import React from 'react'
-import '../styles/CardTheme.css'
 import { Card, ProgressBar, Stack, Button } from 'react-bootstrap'
 import { currencyFormatter } from '../Util'
 
@@ -7,7 +6,6 @@ export default function BudgetCard({
     name, 
     amount, 
     max,
-    openAddExpenseClick,
     onViewExpensesClick,
     hideButtons
 }) {
@@ -17,7 +15,7 @@ export default function BudgetCard({
     if (amount > max) {
         classNames.push('rgb(255, 124, 124)')
     } else if (amount < max || amount === max) {
-        classNames.push('bg-light')
+        classNames.push('rgb(255, 255, 255)')
     }
 
     return (
