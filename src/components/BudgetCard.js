@@ -1,6 +1,7 @@
 import React from 'react'
 import { Card, ProgressBar, Stack, Button } from 'react-bootstrap'
 import { currencyFormatter } from '../Util'
+import '../styles/BudgetCard.css'
 
 export default function BudgetCard({
     name, 
@@ -51,7 +52,7 @@ export default function BudgetCard({
                     <Stack direction='horizontal' gap='2' className='mt-4'>
                         <Button 
                         variant='secondary' 
-                        className='ms-auto'
+                        className='ms-auto margin-right'
                         onClick={openAddExpenseClick}
                         size='md'
                         >

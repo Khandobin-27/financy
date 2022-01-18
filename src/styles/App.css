@@ -31,7 +31,7 @@ html {
     font-weight: 500;
     color: rgb(36, 36, 36);
     transition: .3s;
-    margin-right: .3rem;
+    margin-right: .35rem;
 }
 
 .add-btn-expense{
@@ -66,14 +66,14 @@ html {
         font-size: 2.3em;
     }
     .add-btn-budget {
-        font-size: small;
+        font-size: .9em;
         padding: .4rem;
         font-weight: 600;
     }
     
     .add-btn-expense{
         padding: .4rem;
-        font-size: small;
+        font-size: .9em;
         font-weight: 600;
     }
 
